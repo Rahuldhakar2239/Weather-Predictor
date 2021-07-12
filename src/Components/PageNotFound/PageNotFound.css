@@ -1,0 +1,66 @@
+.pagenotfound{
+    width: 32%;
+    text-align: center;
+    margin: auto;
+    margin-top: 30em;
+    margin-bottom: 20em;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+}
+
+.pagenotfound h1{
+    font-size: 4rem;
+    padding: 0.2em;
+    color: tomato;
+}
+
+.pagenotfound p{
+    font-size: 2rem;
+    padding: 1em;
+}
+
+@media only screen and (max-width:1120px) {
+    .pagenotfound{
+        margin-bottom: 27em;
+    }
+
+    .pagenotfound h1{
+        font-size: 3.3rem;
+    }
+    
+    .pagenotfound p{
+        font-size: 1.6rem;
+    }
+}
+
+
+
+@media only screen and (max-width:750px) {
+    .pagenotfound h1{
+        font-size: 2rem;
+    }
+    
+    .pagenotfound p{
+        font-size: 1rem;
+    }
+}
+
+
+@media only screen and (max-width:520px) {
+    .pagenotfound{
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width:490px){
+    .pagenotfound{
+        margin-bottom: auto;
+    }
+}
+
+@media only screen and (max-width:420px) {
+    .pagenotfound{
+        width: 60%;
+    }
+}
